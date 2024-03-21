@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bubble Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="main h-[100vh] w-[100vw] bg-green-500 flex justify-center items-center font-serif select-none">
+
+    <div class="panel h-[80%] w-[80%] bg-gray-100 rounded-[10px] overflow-hidden">
+
+      <div class="ptop h-[80px] bg-green-800 flex  justify-center items-center gap-40 select-none">
+        <div class="content w-fit flex justify-center items-center gap-3"><span
+            class="text-white text-xl font-semibold font-sans">Hit</span>
+          <span class="hitVal bg-white px-3 py-[1px] font-bold text-xl text-green-900 rounded-[4px]">0</span>
+        </div>
+        <div class="content w-fit flex justify-center items-center gap-3"><span
+            class="text-white text-xl font-semibold font-sans">Timer</span>
+          <span class="timerValue bg-white px-3 py-[1px] font-bold text-xl text-green-900 rounded-[4px]">60</span>
+        </div>
+        <div class="content w-fit flex justify-center items-center gap-3"><span
+            class="text-white text-xl font-semibold font-sans">Score</span>
+          <span class="scoreVal bg-white px-3 py-[1px] font-bold text-xl text-green-900 rounded-[4px]">0</span>
+        </div>
+      </div>
+
+      <div class="pbtm h-[calc(100vh-80px)] w-[100%] flex justify-center items-center  flex-wrap p-[20px] gap-2 overflow-hidden ">
+       
+        <button id="restart">Restart</button>
+          
+      </div>
+
+    </div>
+
+  </div>
+  <script src=" script.js">
+  </script>
+</body>
+
+</html>
